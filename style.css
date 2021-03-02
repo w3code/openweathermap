@@ -6,3 +6,32 @@ html{
 *::after{
     box-sizing: inherit;
 }
+
+.container{
+    margin: 0 auto;
+    width: 900px;
+}
+.header{
+    margin: 0 auto;
+    text-align: center;
+}
+.weather-box{
+    margin: 0 auto;
+    width: 200px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid rgb(5, 139, 0);
+    padding: 10px;
+}
+
+.city-name{
+    color: rgb(5, 139, 0);
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.city-temp{
+    color: rgb(3, 95, 148);
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
